@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+/* Layout */
+
+.container {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(204, 204, 204);
+}
+
+.square {
+    background-color: #fff;
+    float: left;
+}
